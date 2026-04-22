@@ -393,4 +393,8 @@ public final class KokoroTTS {
     static let bm_prosody = "Prosody"
     static let bm_decoder = "Decoder"
   }
+
+  public static func loadVoices(from url: URL) -> [String: MLXArray]? {
+    NpyzReader.read(fileFromPath: url)
+}
 }
