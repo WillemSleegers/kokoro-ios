@@ -19,7 +19,8 @@ let package = Package(
     .package(url: "https://github.com/ml-explore/mlx-swift", from: "0.30.2"),
     // .package(url: "https://github.com/mlalma/eSpeakNGSwift", from: "1.0.1"),
     //.package(url: "https://github.com/mlalma/MisakiSwift", exact: "1.0.6"),
-    .package(url: "https://github.com/WillemSleegers/MisakiSwift", from: "1.0.6"),
+    .package(url: "https://github.com/WillemSleegers/MisakiSwift", branch: "main"),
+    //.package(url: "https://github.com/WillemSleegers/MisakiSwift", from: "1.0.6"),
     .package(url: "https://github.com/mlalma/MLXUtilsLibrary.git", exact: "0.0.6")
   ],
   targets: [
